@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.nav-1{
+
+
+    display: flex;
+
+    height: 80px;
+    width: 100%;
+    background-color: rgb(22, 22, 39);
+    color: white;
+    display: flex   ;
+    justify-content: space-evenly;
+    
+    
+}
+.nav-1 i{
+    color: rgb(255, 94, 0);
+    font-size: 6rem;
+    padding: 1rem;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+        border-color: white;
+}
+.locatiom a{
+    color: white;
+    font-size: larger;
+}
+.search{display: flex;
+align-items: center;
+margin-left: 4rem;
+}
+.en{
+    display: flex;
+    align-items: center;
+}
+.En{
+
+
+    margin-left: 2rem;
+    font-size: 4rem;
+    color: black;
+    color: white;
+}
+.helloandsignin{
+    position: relative;
+    top: 3rem;
+    
+}
+.nav-2{
+    height: 50px;
+    background-color: rgb(46, 46, 78);
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+.nav-2{
+    font-size: 2rem;
+    color: white;
+}
+.toy{
+    
+    background-image: url(toy.jpg);
+    height: 600px;
+    background-size: cover;
+    z-index: -1;
+}
+.backtotop{
+    height:50px ;
+    background-color: rgb(51, 51, 99);
+    font-size: larger;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{height: 291.56px;
+
+
+background-color: rgb(33, 33, 46);
+display: flex;
+color: white;
+font-size: 2rem;
+justify-content: space-evenly;}
+footer{
+    color: white;
+    font-size: 1.50rem;
+}
